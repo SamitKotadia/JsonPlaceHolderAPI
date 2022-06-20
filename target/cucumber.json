@@ -1,0 +1,252 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Validate post request",
+        "description": "",
+        "id": "api-get-request-testing-for-petstore;validate-post-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 102124600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have base uri",
+            "match": {
+              "location": "GetStepDefination.i_have_base_uri()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2103613700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I execute \"post\" request to add Title and Body in Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "post",
+                  "offset": 11
+                }
+              ],
+              "location": "GetStepDefination.i_execute_request_to_add_Title_and_Body_in_Application(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29058700,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 10,
+                "value": "#    When I execute post request to add pet in store"
+              }
+            ],
+            "line": 11,
+            "name": "I should see status code as \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 29
+                }
+              ],
+              "location": "GetStepDefination.i_should_see_status_code_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Validate get request",
+        "description": "",
+        "id": "api-get-request-testing-for-petstore;validate-get-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 850000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I have base uri",
+            "match": {
+              "location": "GetStepDefination.i_have_base_uri()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 123891900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I execute \"get\" request to add Title and Body in Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "get",
+                  "offset": 11
+                }
+              ],
+              "location": "GetStepDefination.i_execute_request_to_add_Title_and_Body_in_Application(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1297100,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 16,
+                "value": "#    When I execute get request by pet Id"
+              }
+            ],
+            "line": 17,
+            "name": "I should see status code as \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 29
+                }
+              ],
+              "location": "GetStepDefination.i_should_see_status_code_as(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Validate delete request",
+        "description": "",
+        "id": "api-get-request-testing-for-petstore;validate-delete-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 837500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I have base uri",
+            "match": {
+              "location": "GetStepDefination.i_have_base_uri()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 309178900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I execute \"delete\" request to add Title and Body in Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "delete",
+                  "offset": 11
+                }
+              ],
+              "location": "GetStepDefination.i_execute_request_to_add_Title_and_Body_in_Application(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 694200,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 22,
+                "value": "#    When I execute delete request by pet Id"
+              }
+            ],
+            "line": 23,
+            "name": "I should see status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 29
+                }
+              ],
+              "location": "GetStepDefination.i_should_see_status_code_as(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 105133900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I execute \"get\" request to add Title and Body in Application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "get",
+                  "offset": 11
+                }
+              ],
+              "location": "GetStepDefination.i_execute_request_to_add_Title_and_Body_in_Application(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1673800,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 25,
+                "value": "#    And I execute get request by pet Id"
+              }
+            ],
+            "line": 26,
+            "name": "I should see status code as \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "404",
+                  "offset": 29
+                }
+              ],
+              "location": "GetStepDefination.i_should_see_status_code_as(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "API get request Testing for PetStore",
+    "description": "As a user\nI want to to be able get pet data from store\nSo that I can validate that API functionality",
+    "id": "api-get-request-testing-for-petstore",
+    "keyword": "Feature",
+    "uri": "getData.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@getService"
+      }
+    ]
+  }
+]
