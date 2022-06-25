@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 102124600,
+              "duration": 86265900,
               "status": "passed"
             },
             "line": 8,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 2103613700,
+              "duration": 2279461500,
               "status": "passed"
             },
             "line": 9,
@@ -42,16 +42,10 @@
           },
           {
             "result": {
-              "duration": 29058700,
+              "duration": 34832400,
               "status": "passed"
             },
-            "comments": [
-              {
-                "line": 10,
-                "value": "#    When I execute post request to add pet in store"
-              }
-            ],
-            "line": 11,
+            "line": 10,
             "name": "I should see status code as \"201\"",
             "match": {
               "arguments": [
@@ -67,7 +61,7 @@
         ]
       },
       {
-        "line": 13,
+        "line": 12,
         "name": "Validate get request",
         "description": "",
         "id": "api-get-request-testing-for-petstore;validate-get-request",
@@ -76,10 +70,10 @@
         "steps": [
           {
             "result": {
-              "duration": 850000,
+              "duration": 848100,
               "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "I have base uri",
             "match": {
               "location": "GetStepDefination.i_have_base_uri()"
@@ -88,10 +82,10 @@
           },
           {
             "result": {
-              "duration": 123891900,
+              "duration": 423905600,
               "status": "passed"
             },
-            "line": 15,
+            "line": 14,
             "name": "I execute \"get\" request to add Title and Body in Application",
             "match": {
               "arguments": [
@@ -106,16 +100,10 @@
           },
           {
             "result": {
-              "duration": 1297100,
+              "duration": 2139700,
               "status": "passed"
             },
-            "comments": [
-              {
-                "line": 16,
-                "value": "#    When I execute get request by pet Id"
-              }
-            ],
-            "line": 17,
+            "line": 15,
             "name": "I should see status code as \"404\"",
             "match": {
               "arguments": [
@@ -131,7 +119,7 @@
         ]
       },
       {
-        "line": 19,
+        "line": 17,
         "name": "Validate delete request",
         "description": "",
         "id": "api-get-request-testing-for-petstore;validate-delete-request",
@@ -140,10 +128,10 @@
         "steps": [
           {
             "result": {
-              "duration": 837500,
+              "duration": 1118500,
               "status": "passed"
             },
-            "line": 20,
+            "line": 18,
             "name": "I have base uri",
             "match": {
               "location": "GetStepDefination.i_have_base_uri()"
@@ -152,10 +140,10 @@
           },
           {
             "result": {
-              "duration": 309178900,
+              "duration": 300364200,
               "status": "passed"
             },
-            "line": 21,
+            "line": 19,
             "name": "I execute \"delete\" request to add Title and Body in Application",
             "match": {
               "arguments": [
@@ -170,16 +158,10 @@
           },
           {
             "result": {
-              "duration": 694200,
+              "duration": 1089000,
               "status": "passed"
             },
-            "comments": [
-              {
-                "line": 22,
-                "value": "#    When I execute delete request by pet Id"
-              }
-            ],
-            "line": 23,
+            "line": 20,
             "name": "I should see status code as \"200\"",
             "match": {
               "arguments": [
@@ -194,10 +176,10 @@
           },
           {
             "result": {
-              "duration": 105133900,
+              "duration": 303747100,
               "status": "passed"
             },
-            "line": 24,
+            "line": 21,
             "name": "I execute \"get\" request to add Title and Body in Application",
             "match": {
               "arguments": [
@@ -212,16 +194,10 @@
           },
           {
             "result": {
-              "duration": 1673800,
+              "duration": 1901700,
               "status": "passed"
             },
-            "comments": [
-              {
-                "line": 25,
-                "value": "#    And I execute get request by pet Id"
-              }
-            ],
-            "line": 26,
+            "line": 22,
             "name": "I should see status code as \"404\"",
             "match": {
               "arguments": [
